@@ -1,0 +1,11 @@
+{
+  "name": "vanilla-front-end-boilerplate",
+  "version": "1.0.1",
+  "description": "Vanilla front end boilerplate",
+  "devDependencies": {
+    "browser-sync": "^2.26.3"
+  },
+  "scripts": {
+    "bss": "browser-sync start --server --files 'src/*.html, src/css/*.css, src/js/*.js' --directory --port 9999 --browser 'FirefoxDeveloperEdition'"
+  }
+}
